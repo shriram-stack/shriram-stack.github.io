@@ -23,6 +23,61 @@
 
 <script type="text/babel">
 
+function CloudEngineer() {
+  return (
+    <section className="py-16 bg-slate-900">
+      <div className="max-w-5xl mx-auto px-6">
+        <h2 className="text-2xl font-bold text-sky-400 mb-6">
+          Cloud Engineer – AWS
+        </h2>
+
+        <div className="bg-slate-800 p-6 rounded-lg space-y-3">
+          <ul className="list-disc ml-6 space-y-2 text-sm">
+            <li>EC2 instance families, AMI management, Launch Templates & Auto Scaling</li>
+            <li>EBS (persistent volumes), Instance Store, EFS</li>
+            <li>S3, lifecycle policies, versioning</li>
+            <li>VPC, Subnets, CIDR, Route Tables, Internet & NAT Gateway</li>
+            <li>VPC Peering, Transit Gateway</li>
+            <li>Route53 (DNS), CloudFront (CDN)</li>
+            <li>API Gateway, Load Balancers (ALB / NLB)</li>
+            <li>RDS (MySQL, PostgreSQL), Read Replicas, Aurora</li>
+            <li>Core Linux, networking basics, Bash scripting</li>
+            <li>Infrastructure as Code using Terraform & CloudFormation</li>
+            <li>Ansible for configuration management</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function DevOpsEngineer() {
+  return (
+    <section className="py-16 bg-slate-800">
+      <div className="max-w-5xl mx-auto px-6">
+        <h2 className="text-2xl font-bold text-sky-400 mb-6">
+          DevOps Engineer
+        </h2>
+
+        <div className="bg-slate-900 p-6 rounded-lg space-y-3">
+          <ul className="list-disc ml-6 space-y-2 text-sm">
+            <li>CI/CD pipelines using Jenkins, GitHub Actions & GitLab CI</li>
+            <li>Git, GitHub, GitLab version control workflows</li>
+            <li>Docker containerization</li>
+            <li>Kubernetes (EKS, GKE, OpenShift, Rancher)</li>
+            <li>Prometheus, Grafana monitoring</li>
+            <li>ELK Stack logging</li>
+            <li>Linux & Windows host management</li>
+            <li>Python & Bash automation</li>
+            <li>Jira project tracking</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+  
 function App() {
   return (
     <div>
