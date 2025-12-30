@@ -6,20 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- ATS Meta -->
-  <meta name="description" content="DevOps and Cloud Security Engineer skilled in AWS, Kubernetes, Docker, Terraform, CI/CD, and DevSecOps practices." />
-  <meta name="keywords" content="DevOps Engineer, Cloud Engineer, AWS, Kubernetes, Docker, Terraform, CI/CD, Jenkins, GitHub Actions, DevSecOps" />
+  <meta name="description" content="DevOps and Cloud Security Engineer with Machine Learning experience at Athenova. Skilled in AWS, Kubernetes, Docker, Terraform, CI/CD, and MLOps." />
+  <meta name="keywords" content="DevOps Engineer, Machine Learning Engineer, AWS, Kubernetes, Docker, Terraform, CI/CD, DevSecOps, MLOps" />
 
-  <!-- Tailwind CDN -->
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- React + Babel -->
+  <!-- React -->
   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 
 <body class="bg-slate-900 text-gray-200">
-
 <div id="root"></div>
 
 <script type="text/babel">
@@ -32,27 +31,22 @@ function App() {
       <header className="bg-gradient-to-r from-indigo-500 to-cyan-400 text-slate-900 py-16 text-center">
         <h1 className="text-4xl font-bold">Shri Ram</h1>
         <p className="text-xl mt-2 font-semibold">
-          DevOps & Cloud Security Engineer
+          DevOps & Cloud Security Engineer | Machine Learning
         </p>
         <p className="mt-3">
-          AWS • Kubernetes • Docker • Terraform • CI/CD • DevSecOps
+          AWS • Kubernetes • Docker • Terraform • CI/CD • MLOps
         </p>
 
         <div className="mt-6 flex justify-center gap-4 flex-wrap">
-        <a
-className="px-5 py-2 bg-white text-slate-900 rounded font-semibold"
-  href="#experience"
->
-  Experience
-</a>
-
-          <a className="px-5 py-2 bg-slate-900 text-white rounded" href="#">
-            Download Resume
+          <a href="#experience" className="px-5 py-2 bg-white text-slate-900 rounded font-semibold">
+            Experience
           </a>
-          <a className="px-5 py-2 border-2 border-slate-900 rounded" href="https://github.com/shriram-stack" target="_blank">
+          <a href="https://github.com/shriram-stack" target="_blank"
+             className="px-5 py-2 border-2 border-slate-900 rounded">
             GitHub
           </a>
-          <a className="px-5 py-2 border-2 border-slate-900 rounded" href="https://linkedin.com/in/shri-ram-7a47441b9" target="_blank">
+          <a href="https://linkedin.com/in/shri-ram-7a47441b9" target="_blank"
+             className="px-5 py-2 border-2 border-slate-900 rounded">
             LinkedIn
           </a>
         </div>
@@ -62,10 +56,9 @@ className="px-5 py-2 bg-white text-slate-900 rounded font-semibold"
       <section className="max-w-5xl mx-auto px-6 py-14">
         <h2 className="text-2xl font-bold text-sky-400 mb-4">About Me</h2>
         <p>
-          I am a DevOps and Cloud Security Engineer with 2+ years of experience designing,
-          deploying, and securing cloud-native applications on AWS. I specialize in
-          Infrastructure as Code (Terraform), Kubernetes (EKS), Docker, CI/CD pipelines,
-          monitoring, and DevSecOps practices.
+          I am a DevOps and Machine Learning Engineer with 2+ years of experience
+          building scalable cloud-native systems and production-ready ML pipelines.
+          I focus on automation, security, and reliability across the ML lifecycle.
         </p>
       </section>
 
@@ -73,93 +66,104 @@ className="px-5 py-2 bg-white text-slate-900 rounded font-semibold"
       <section className="bg-slate-800 py-14">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-2xl font-bold text-sky-400 mb-6">Technical Skills</h2>
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 gap-3">
             <div>☁ AWS (EC2, S3, EKS, IAM, RDS, Lambda)</div>
             <div>🐳 Docker & Kubernetes</div>
             <div>⚙ Terraform & Infrastructure as Code</div>
             <div>🔁 Jenkins, GitHub Actions, CI/CD</div>
             <div>📊 Prometheus, Grafana, CloudWatch</div>
-            <div>🔐 IAM, WAF, KMS, DevSecOps</div>
-            <div>⚖ High Availability, Load Balancing</div>
-            <div>💻 Python & Bash Scripting</div>
+            <div>🤖 Python, TensorFlow, Scikit-learn</div>
           </div>
         </div>
       </section>
 
-
       {/* EXPERIENCE */}
-<section id="experience" className="bg-slate-900 py-16">
-  <div className="max-w-5xl mx-auto px-6">
-    <h2 className="text-2xl font-bold text-sky-400 mb-6">
-      Professional Experience
-    </h2>
+      <section id="experience" className="py-16">
+        <div className="max-w-5xl mx-auto px-6">
+          <h2 className="text-2xl font-bold text-sky-400 mb-6">
+            Professional Experience
+          </h2>
 
-    <div className="bg-slate-800 p-6 rounded-lg shadow">
-      <h3 className="text-xl font-semibold">
-        Machine Learning Engineer / Research Associate
-      </h3>
+          <div className="bg-slate-800 p-6 rounded-lg shadow-lg">
 
-      <p className="text-sm text-gray-400 mt-1">
-        Athenova • Mar 2025 – Present • Chennai, India
-      </p>
+            <h3 className="text-xl font-semibold">
+              Machine Learning Engineer / Research Associate
+            </h3>
+            <p className="text-sm text-gray-400">
+              Athenova • Mar 2025 – Present • Chennai, India
+            </p>
 
-      <ul className="list-disc ml-6 mt-4 space-y-2">
-        <li>
-          Designed and implemented end-to-end machine learning pipelines using
-          Python, Pandas, and NumPy for structured and unstructured datasets.
-        </li>
-        <li>
-          Performed extensive Exploratory Data Analysis (EDA) and feature
-          engineering to improve model accuracy and reduce data noise.
-        </li>
-        <li>
-          Trained and optimized models using Scikit-learn, XGBoost, and
-          TensorFlow, including hyperparameter tuning.
-        </li>
-        <li>
-          Developed deep learning models for computer vision use cases such as
-          iris damage detection and cancer detection.
-        </li>
-        <li>
-          Automated data preprocessing workflows and experiment tracking,
-          improving model reproducibility and deployment readiness.
-        </li>
-        <li>
-          Collaborated with cross-functional teams to integrate ML models into
-          scalable cloud-based systems.
-        </li>
-      </ul>
+            {/* STORY CARDS */}
+            <div className="grid md:grid-cols-3 gap-4 mt-6">
+              <StoryCard
+                title="Problem"
+                text="Large, noisy datasets with missing values affecting model accuracy and reliability."
+              />
+              <StoryCard
+                title="Solution"
+                text="Built automated preprocessing pipelines and performed feature engineering to standardize data."
+              />
+              <StoryCard
+                title="Impact"
+                text="Improved model accuracy by ~18% and reduced preprocessing time by ~40%."
+              />
+            </div>
 
-      <p className="mt-4 text-sky-400 text-sm">
-        Tech Stack: Python, Pandas, NumPy, Scikit-learn, TensorFlow, XGBoost,
-        Computer Vision, Data Pipelines, AWS
-      </p>
-    </div>
-  </div>
-</section>
+            {/* BULLETS */}
+            <ul className="list-disc ml-6 mt-6 space-y-2">
+              <li>Designed end-to-end ML pipelines using Python, Pandas, and NumPy.</li>
+              <li>Performed EDA and feature engineering to improve model performance.</li>
+              <li>Trained and tuned models using Scikit-learn, XGBoost, and TensorFlow.</li>
+              <li>Developed computer vision models for iris damage and cancer detection.</li>
+              <li>Prepared ML workflows for cloud-based deployment and scalability.</li>
+            </ul>
 
+            {/* PIPELINE */}
+            <div className="mt-6">
+              <h4 className="font-semibold text-sky-400 mb-2">
+                Machine Learning Pipeline
+              </h4>
+              <div className="flex flex-wrap gap-2 text-sm">
+                {[
+                  "Data Collection",
+                  "Data Cleaning",
+                  "Feature Engineering",
+                  "Model Training",
+                  "Evaluation",
+                  "Deployment Ready"
+                ].map(step => (
+                  <span key={step}
+                    className="px-3 py-1 bg-sky-500/10 border border-sky-500 rounded">
+                    {step}
+                  </span>
+                ))}
+              </div>
+            </div>
 
-      {/* PROJECTS */}
-      <section className="max-w-5xl mx-auto px-6 py-14">
-        <h2 className="text-2xl font-bold text-sky-400 mb-6">Projects</h2>
+            {/* TECH BADGES */}
+            <div className="flex flex-wrap gap-2 mt-6">
+              {[
+                "Python","Pandas","NumPy","Scikit-learn","TensorFlow",
+                "XGBoost","Computer Vision","AWS","Data Pipelines"
+              ].map(skill => (
+                <span key={skill}
+                  className="px-3 py-1 text-sm bg-slate-900 border border-gray-600 rounded">
+                  {skill}
+                </span>
+              ))}
+            </div>
 
-        <Project
-          title="DevSecOps Netflix Clone"
-          desc="Microservices-based application deployed on AWS EKS with CI/CD automation, container security, and zero-downtime deployments."
-          stack="AWS EKS, Docker, Jenkins, Kubernetes, Prometheus, Grafana"
-        />
+            {/* WHY IT MATTERS */}
+            <div className="mt-6 bg-slate-900 p-4 rounded border-l-4 border-sky-400">
+              <h4 className="font-semibold text-sky-400">Why This Matters</h4>
+              <p className="text-sm mt-2">
+                This experience strengthened my ability to build production-ready
+                ML systems aligned with DevOps and MLOps best practices.
+              </p>
+            </div>
 
-        <Project
-          title="TrendStore – E-commerce DevOps"
-          desc="Provisioned scalable cloud infrastructure using Terraform and implemented CI/CD pipelines for Kubernetes deployments."
-          stack="Terraform, AWS, Jenkins, Kubernetes"
-        />
-
-        <Project
-          title="MindTrack – Cloud-Native CI/CD"
-          desc="Built end-to-end CI/CD pipelines using AWS CodePipeline, ECR, and EKS with load balancer exposure."
-          stack="AWS CodePipeline, ECR, EKS"
-        />
+          </div>
+        </div>
       </section>
 
       {/* CERTIFICATIONS */}
@@ -182,25 +186,23 @@ className="px-5 py-2 bg-white text-slate-900 rounded font-semibold"
       </section>
 
       <footer className="bg-slate-950 text-center py-6 text-sm">
-        © 2025 Shri Ram | DevOps & Cloud Engineer
+        © 2025 Shri Ram | DevOps & Machine Learning Engineer
       </footer>
 
     </div>
   );
 }
 
-function Project({ title, desc, stack }) {
+function StoryCard({ title, text }) {
   return (
-    <div className="bg-slate-800 p-6 rounded-lg mb-6">
-      <h3 className="text-xl font-semibold">{title}</h3>
-      <p className="mt-2">{desc}</p>
-      <p className="mt-2 text-sm text-sky-400">Tech Stack: {stack}</p>
+    <div className="bg-slate-900 p-4 rounded border border-sky-500">
+      <h4 className="font-semibold text-sky-400">{title}</h4>
+      <p className="text-sm mt-1">{text}</p>
     </div>
   );
 }
 
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
-
 </script>
 
 </body>
